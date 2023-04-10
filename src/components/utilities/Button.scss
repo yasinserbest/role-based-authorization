@@ -1,0 +1,15 @@
+.button {
+  background-color: none;
+  outline: none;
+  outline-color: none;
+  border-radius: 0;
+  padding: 0.5rem 1rem;
+  border: none;
+  transition: all 0.2s;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px black;
+    transform: translateY(2px);
+  }
+}

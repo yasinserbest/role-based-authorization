@@ -1,0 +1,16 @@
+.page {
+  &__name {
+    color: yellow;
+    font-size: 3rem;
+  }
+  &__message {
+    font-size: 2rem;
+  }
+  &__content {
+    font-size: 1.5rem;
+    font-weight: bold;
+    &--item {
+      margin-bottom: 2.5rem;
+    }
+  }
+}
