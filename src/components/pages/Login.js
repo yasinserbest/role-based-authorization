@@ -25,7 +25,7 @@ function Login() {
   return (
     <div className="login">
       <div className="login__title">
-        Please select role which you want to login.
+        Please select which user role you want to login with.
       </div>
       <div>
         <select onChange={roleChangeHandler} className="login__roles">
